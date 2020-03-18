@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RSSListV.swift
 //  nws
 //
 //  Created by macproo on 2020/03/18.
@@ -8,17 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct RSSListV: View {
     var body: some View {
-        ZStack {
-            RSSListV()
-            LandingV()
-        }
+        Text("this is RSSList View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct RSSListV_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RSSListV()
     }
 }
